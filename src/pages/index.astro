@@ -11,37 +11,19 @@ const posts = (await getPublishedPosts()).slice(0, BLOG.postsOnHome);
 <BaseLayout overlayHeader>
   <FluidInk variant="hero" enabled={INK.hero}>
     <div class="hero">
-      <p class="hero__eyebrow">An Astro 7 theme</p>
+      <p class="hero__eyebrow">UNIVERSIDAD NACIONAL DE SAN MARTIN</p>
       <h1 class="hero__title">{SITE.title}</h1>
       <p class="hero__lede">{SITE.tagline}</p>
       <p class="hero__cta">
-        <a href="/blog/">Read the blog ↓</a>
+        <a href="/blog/">Ver trabajos ↓</a>
       </p>
     </div>
-
-    {
-      SITE.titleMark && (
-        <p class="hero__rail tategaki" aria-hidden="true">
-          墨と水 — INK IN WATER
-        </p>
-      )
-    }
-
-    {
-      INK.hero && (
-        <p class="hero__notes" aria-hidden="true">
-          <span>Navier–Stokes / WebGL2</span>
-          <span class="hero__notes-mid">Scroll ↓</span>
-          <span>Move — stir the ink</span>
-        </p>
-      )
-    }
   </FluidInk>
 
   <section class="section wrap">
     <div class="latest__head">
-      <h2 class="eyebrow">Latest</h2>
-      <a class="latest__all label" href="/blog/">All posts →</a>
+      <h2 class="eyebrow">Ultimos trabajos</h2>
+      <a class="latest__all label" href="/blog/">Todas las publicaciones →</a>
     </div>
 
     <div class="latest__list">
@@ -52,7 +34,7 @@ const posts = (await getPublishedPosts()).slice(0, BLOG.postsOnHome);
   {
     INK.divider && (
       <FluidInk variant="divider" strength={INK.strength * 0.7}>
-        <p class="divider__label label">墨 — Ink and paper</p>
+        <p class="divider__label label">墨 — Gracias por ver</p>
       </FluidInk>
     )
   }
@@ -72,7 +54,7 @@ const posts = (await getPublishedPosts()).slice(0, BLOG.postsOnHome);
 
   .hero__eyebrow {
     font-family: var(--font-mono);
-    font-size: var(--text-xs);
+    font-size: 30px;
     letter-spacing: var(--tracking-wide);
     text-transform: uppercase;
     color: var(--color-accent);
@@ -80,7 +62,7 @@ const posts = (await getPublishedPosts()).slice(0, BLOG.postsOnHome);
 
   .hero__title {
     font-family: var(--font-mono);
-    font-size: var(--text-hero);
+    font-size: 7rem;
     font-weight: 600;
     line-height: 0.9;
     letter-spacing: var(--tracking-hero);

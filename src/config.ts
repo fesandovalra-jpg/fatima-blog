@@ -20,13 +20,13 @@ export interface SocialLink {
 export const SITE = {
   /** Absolute origin of the deployed site. No trailing slash. */
   url: "https://sumi.p4ni.com",
-  title: "Sumi",
+  title: "BIENVENIDOS A MI BLOG",
   /**
    * Short Japanese mark used for the vertical rail and the loading screen.
    * Set to an empty string to drop the Japanese accents entirely.
    */
   titleMark: "墨",
-  tagline: "An Astro theme in ink and paper",
+  tagline: "FATIMA ESTHER SANDOVAL RAMIREZ",
   description:
     "Sumi is a minimal Astro theme built around ink, washi paper and generous negative space. Dual light and dark themes, zero client JavaScript on article pages, and a WebGL ink simulation on the front page.",
   /** BCP 47 language tag, written to <html lang>. */
@@ -45,13 +45,12 @@ export const AUTHOR = {
 } as const;
 
 export const NAV: NavItem[] = [
-  { label: "Blog", href: "/blog" },
-  { label: "Tags", href: "/tags" },
-  { label: "About", href: "/about" },
+  { label: "TRABAJOS", href: "/blog" },
+  { label: "ETIQUETAS", href: "/tags" },
 ];
 
 export const SOCIAL: SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/kpab/astro-sumi" },
+  { label: "GitHub", href: "https://github.com/fesandovalra-jpg" },
 ];
 
 export const BLOG = {

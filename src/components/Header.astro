@@ -1,7 +1,9 @@
 ---
 import { NAV, SITE } from "../config";
 import ThemeToggle from "./ThemeToggle.astro";
-
+import { Image } from "astro:assets";
+import logo1 from "../assets/logo1.png";
+import fisi from "../assets/logofisi.png";
 interface Props {
   /** Lay the header over the hero instead of pushing it down. */
   overlay?: boolean;
@@ -16,12 +18,7 @@ const isCurrent = (href: string) =>
 
 <header class="site-header" data-overlay={overlay ? "" : undefined}>
   <a class="brand" href="/">
-    <span class="brand__mark">{SITE.title}</span>
-    {
-      SITE.titleMark && (
-        <span class="brand__sub">{SITE.titleMark} — {SITE.tagline}</span>
-      )
-    }
+    <Image src={logo1} alt="" height={80} /> 
   </a>
 
   <div class="site-header__end">
@@ -43,6 +40,9 @@ const isCurrent = (href: string) =>
     </nav>
     <ThemeToggle />
   </div>
+    <a class="brand" href="/">
+    <Image src={fisi} alt="" height={80} /> 
+  </a>
 </header>
 
 <style>
