@@ -101,4 +101,4 @@ A este panorama de desgaste físico y virtual se suma la inestabilidad del SIGAU
 
 ## VII. ANEXOS
 
-- 📎 [Documento completo y material anexo en Google Drive](https://drive.google.com/file/d/1qzEesLkC4OI4Y5O0nmNFprL0tmvzDRGh/view?usp=sharing)
+![Documento completo y material anexo en Google Drive](../../assets/anexo1.png)
