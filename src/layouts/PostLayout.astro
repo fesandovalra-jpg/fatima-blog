@@ -11,7 +11,7 @@ import { BLOG, OG } from "../config";
 import { formatDate, isoDate } from "../utils/date";
 import { readingTime } from "../utils/reading-time";
 import { tagSlug, type Post } from "../utils/posts";
-
+import Comentarios from '../components/Comentarios.astro';
 interface Props {
   post: Post;
   headings: MarkdownHeading[];
@@ -97,6 +97,7 @@ const article = {
 
       <div class="prose post__body">
         <slot />
+        <Comentarios />
       </div>
     </div>
 
