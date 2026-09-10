@@ -196,3 +196,23 @@
   letter-spacing: var(--tracking-label);
   color: var(--color-fg-faint);
 }
+/* --- Ajustes responsivos para móviles --- */
+.prose table,
+.prose pre {
+  display: block;
+  max-width: 100% !important;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.prose img,
+.prose figure,
+.prose svg {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.prose {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}

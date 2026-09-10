@@ -157,9 +157,22 @@ const posts = (await getPublishedPosts()).slice(0, BLOG.postsOnHome);
     }
   }
 
-  @media (max-width: 34rem) {
-    :global(.ink:has([data-ink-active])) .hero__notes {
-      display: none;
-    }
-  }
+@media (max-width: 34rem) {
+	:global(.ink:has([data-ink-active])) .hero__notes {
+		display: none;
+	}
+
+	/* Ajuste para que el título no se desborde en móvil */
+	.hero h1,
+	.hero__title,
+	:global(.hero h1),
+	h1 {
+		font-size: clamp(2rem, 9vw, 3.5rem) !important;
+		line-height: 1.05 !important;
+		letter-spacing: -0.03em !important;
+		word-break: break-word !important;
+		max-width: 100% !important;
+		text-align: center !important;
+	}
+}
 </style>
