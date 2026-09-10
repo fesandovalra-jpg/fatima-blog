@@ -216,3 +216,9 @@
   overflow-wrap: break-word;
   word-break: break-word;
 }
+.prose p,
+.prose li {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
