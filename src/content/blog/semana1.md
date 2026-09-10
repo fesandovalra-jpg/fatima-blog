@@ -102,3 +102,11 @@ A este panorama de desgaste físico y virtual se suma la inestabilidad del SIGAU
 ## VII. ANEXOS
 
 ![Documento completo y material anexo en Google Drive](../../assets/anexo1.png)
+---
+### Material complementario 
+
+#### Mapa Mental
+![Mapa Mental - Semana 01](../../assets/mapa.png)
+
+#### Presentación de la Exposición
+* 📄 [Ver Presentación en PDF (Google Drive)](https://drive.google.com/file/d/1q_vqqNPk7pebR_95VJgsK1GUu77Qa5-A/view?usp=sharing)
